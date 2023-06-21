@@ -7,8 +7,8 @@ export default class Renderer {
         this.sizes = this.experience.sizes;
         this.scene = this.experience.scene;
         this.canvas = this.experience.canvas;
-
         this.camera = this.experience.camera;
+        
         this.setRenderer();
     }
 
@@ -35,6 +35,6 @@ export default class Renderer {
     }
 
     update() {
-        this.renderer.render(this.scene, this.camera.perspectiveCamera);
+        this.renderer.render(this.scene, this.camera.orthographicCamera);
     }
 }
