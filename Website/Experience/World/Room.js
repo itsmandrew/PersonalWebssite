@@ -70,7 +70,7 @@ export default class Room {
 
 
         this.scene.add(this.actualRoom);
-        this.actualRoom.scale.set(0.35, 0.35, 0.35);
+        this.actualRoom.scale.set(0.4, 0.4, 0.4);
     }
 
     onMouseMove() {

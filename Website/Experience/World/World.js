@@ -21,7 +21,7 @@ export default class World extends EventEmitter {
             this.environment = new Environment();
             this.room = new Room();
             this.floor = new Floor();
-             // this.controls = new Controls();
+            this.controls = new Controls();
             // this.environment("worldready");
         })
     }
