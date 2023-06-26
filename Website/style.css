@@ -11,6 +11,14 @@ html, body {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
+audio {
+  visibility: hidden;
+}
+
 h1,
 section,
 p,
@@ -55,6 +63,7 @@ svg {
 .page-wrapper {
   position: relative;
 }
+
 
 /* Section Formatting  -------------------------------------------------------- */
 .section-margin {
