@@ -1,6 +1,5 @@
 {
-    "version": 2,
-    "routes": [
+    "redirects": [
       { "src": "/home.html", "dest": "/home.html" },
       { "src": ".*", "dest": "/index.html" }
     ]
