@@ -1,13 +1,12 @@
 {
-    "rewrites": [
-    {
-        "source": "/",
-        "destination": "/home.html"
-    },
-
+    "routes": [
       {
-        "source": "/home.html",
-        "destination": "/index.html"
+        "src": "/",
+        "dest": "/home.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
       }
     ]
   }
