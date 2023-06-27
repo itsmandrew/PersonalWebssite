@@ -1,8 +1,13 @@
 {
     "rewrites": [
-      {
-        "source": "/index.html",
+    {
+        "source": "/",
         "destination": "/home.html"
+    },
+
+      {
+        "source": "/home.html",
+        "destination": "/index.html"
       }
     ]
   }
