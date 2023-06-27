@@ -4,56 +4,138 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="https://visualpharm.com/assets/114/Pokebag-595b40b85ba036ed117da852.svg" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, target-densityDpi=device-dpi, minimal-ui' />
-    <link rel="stylesheet" href="pokemon.css?v=1.1">
-    <title>Intro Animation</title>
+    <link rel="stylesheet" href="style.css?v=1.1">
+    <title>Andrew's Portfolio</title>
   </head>
   <body> 
 
+    <iframe src="/static/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
 
-        <audio autoplay loop muted>
-        <source src='https://vgmsite.com/soundtracks/pokemon-game-boy-pok-mon-sound-complete-set-play-cd/vfywpihuos/1-01.%20Opening.mp3' type='audio/mp3'>
-        </audio>
+    <audio autoplay loop>
+      <source src='https://vgmsite.com/soundtracks/pok-mon-diamond-pok-mon-pearl-super-music-collection-2006/iilhdibsjp/1-23%20-%20Jubilife%20City%20%28Day%29.mp3' type='audio/mpeg'>
+    </audio>
 
-        <div class='wrapper'>
-            <div class='composition'>
-            <div class='scene scene--1'>
-                <div class='shooting-star'></div>
-                <div class='gamefreak-logo'></div>
-                <div class='gamefreak'></div>
-                <div class='star-shower-mask'>
-                <div class='star-shower--light'></div>
-                <div class='star-shower--dark'></div>
-                </div>
-            </div>
-            <div class='scene scene--2'>
-                <section class='opponent jigglypuff-wrapper'>
-                <figure class='jigglypuff'></figure>
-                <figure class='jigglypuff--flinch'></figure>
-                <figure class='jigglypuff--tackle'></figure>
-                </section>
-                <section class='opponent nidorino-wrapper'>
-                <figure class='nidorino'></figure>
-                <figure class='nidorino--flinch'></figure>
-                <figure class='nidorino--tackle'></figure>
-                </section>
-                <section class='gengar-wrapper'>
-                <figure class='gengar'></figure>
-                <figure class='gengar--scratch1'></figure>
-                <figure class='gengar--scratch2'></figure>
-                </section>
-            </div>
-            <div class='scene scene--3'>
-                <div class='logo-wrapper'>
-                <figure class='pokemon-logo'></figure>
-                <span>andrew's portfolio</span>
-                
-                <a href="/Home/home.html">
-                    <span a href="/Home/home.html">click here!</span>
-                </a>
+    <div class="experience">
+      <canvas class = "experience-canvas"></canvas>
+    </div>
+    
+    <div class="page" asscroll-container>
+      
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
 
-                </div>
+            <div class="hero-main">
+              <h1 class="hero-main-title">Andrew Chang</h1>
+              <p class="hero-main-description">Software Engineer | Computer Science @ UCI</p>
             </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading first-sub">Andrew Chang</p>
+              <p class="hero-second-subheading second-sub">Portfolio</p>
             </div>
-        </div>
+
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">About Me</span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+          
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Introduction</h3>
+            <p class="section-text">Hi there 👋! My name is Andrew Chang and I'm an upcoming 4th year at the University of California, Irvine. </p>
+            <p class="section-text">I was born in Monterey Park, CA where I later moved to Diamond Bar, CA to attend elementary, middle, and high school.</p>
+            <p class="section-text"> As of now, I am currently majoring in Computer Science with emphasis on Information and Machine Learning with a minor in Statistics.</p>
+
+            <h3 class="section-heading">Hobbies and Interests</h3>
+            <p class="section-text">In my free time, I indulge in various activities to keep me mentally sane. The gym is my sanctuary, where I unload my stress and frustration through
+              physical harm.
+            </p>
+            <p class="section-text">I also enjoy both watching and playing basketball and I like doing both just as equally, however, when I do watch basketball I enjoy watching the greatest basketball player of all time,
+              LeBron James (I hate Kevin Durant).</p>
+
+            <p class="section-text">Lastly, programming gives me the freedom to create whatever I want on the internet and also if I get good enough at it it can get me paid lots of money.</p>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Work</span>
+              <div class="section-title-decoration styleOne blue-border"></div>
+              <div class="section-title-decoration styleTwo blue-border"></div>
+              <div class="section-title-decoration styleThree blue-background blue-border"></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Skills</h3>
+            <p class="section-text">The programming languages that I use are Python, JavaScript, Java, C++/C, and Node.</p>
+            <p class="section-text">The front-end frameworks include: HTML/CSS and React.</p>
+            <p class="section-text">The back-end frameworks include: ExpressJS, Django, and Flask.</p>
+            <p class="section-text"> Databases include: PostgreSQL, Cassandra, MongoDB, Couchbase Server, Neo4J, and Apache Spark.</p>
+            
+            <h3 class="section-heading">Work</h3>
+            <p class="section-text">I previously work at WhizKids Computer Center located in San Jose where I lectured classes of 3-5 students in topics including Python, 
+              Java, front-end web development, PyGame, data structures and algorithms, and machine learning.</p>
+            <p class="section-text">I also worked as a lab assistant for ICS 32 at UCI where I provided open lab hours three times a week for two hours, 
+              each lab to debug course projects and implement Python and programming concepts such as recursion, classes, web API’s, networks/sockets, and Tkinter.</p>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Contact Me</span>
+              <div class="section-title-decoration styleOne green-border"></div>
+              <div class="section-title-decoration styleTwo green-border"></div>
+              <div class="section-title-decoration styleThree green-background green-border"></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">GitHub</h3>
+            <p class="section-text">I post all my work <a href="https://github.com/itsmandrew">here!</a></p>
+            <h3 class="section-heading">Instagram</h3>
+            <p class="section-text">Check out my personal instagram @itsmandrew!</p>
+            <h3 class="section-heading">LinkedIn</h3>
+            <p class="section-text">Connect with me on LinkedIn <a href="https://www.linkedin.com/in/andrew-chang-631324235/">here!</a></p>
+            <h3 class="section-heading">Spotify</h3>
+            <p class="section-text">Follow me on Spotify <a href="https://open.spotify.com/user/31xdfygnauxezih3fr7e4q5wbsku?si=aec12ab216d64a33">here!</a></p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
